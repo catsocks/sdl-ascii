@@ -215,7 +215,7 @@ int main() {
                 struct grid_cell *cell = &grid[x + grid_w * y];
 
                 SDL_Surface *surface = TTF_RenderGlyph_Shaded(
-                    font, (Uint16)cell->c, *cell->fg, cell->bg);
+                    font, (Uint16)cell->c, *cell->fg, *cell->bg);
 
                 SDL_Texture *texture =
                     SDL_CreateTextureFromSurface(renderer, surface);
