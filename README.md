@@ -5,3 +5,7 @@ A movable boat over moving sea waves drawn with ASCII characters using [SDL](htt
 ## TODO
 
 * Optimize rendering by caching glyphs and streaming them to a texture which may then be presented to the renderer instead of rendering them directly to the renderer.
+
+## Screenshot
+
+![Screenshot](screenshot.png?raw=true)
