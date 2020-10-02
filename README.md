@@ -9,3 +9,8 @@ A movable boat over moving sea waves drawn with ASCII characters using [SDL](htt
 ## Screenshot
 
 ![Screenshot](screenshot.png?raw=true)
+
+## License
+
+Everything with the exception of the contents of the assets and cmake folders
+are dedicated to the public domain under the CC0 1.0 Universal license.
